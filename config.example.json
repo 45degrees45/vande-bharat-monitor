@@ -1,0 +1,19 @@
+{
+  "train_number": "20633",
+  "from_station": "CLT",
+  "to_station": "KTYM",
+  "days_ahead": 14,
+  "alert_thresholds": {
+    "min_seats": 10,
+    "drop_percent": 30
+  },
+  "telegram": {
+    "bot_token": "YOUR_BOT_TOKEN_HERE",
+    "chat_id": "YOUR_CHAT_ID_HERE"
+  },
+  "gmail": {
+    "sender": "your@gmail.com",
+    "app_password": "YOUR_16_CHAR_APP_PASSWORD",
+    "to": "recipient@gmail.com"
+  }
+}
