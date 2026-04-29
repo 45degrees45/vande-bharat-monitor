@@ -1,6 +1,41 @@
+
+*.bin
+build/
+*.ckpt
 config.json
+config/secrets*
+credentials.json
 data/
+data/raw/
+*.db
+dist/
+.DS_Store
+*.egg-info/
+.env
+.env.*
+env/
+*.gguf
+*.key
+# Large data / models
+*.log
 logs/
-__pycache__/
-.venv/
+*.model
+models/
+# Node
+node_modules/
+.npm/
+npm-debug.log*
+*.pem
 *.pyc
+__pycache__/
+*.pyo
+# Python
+secrets/
+# Secrets & credentials
+service_account*.json
+*.sqlite
+# System
+Thumbs.db
+.venv/
+venv/
+yarn-debug.log*
